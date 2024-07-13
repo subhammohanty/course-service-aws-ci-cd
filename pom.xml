@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.javatechie</groupId>
-    <artifactId>course-service-aws-ci-cd</artifactId>
+    <artifactId>course-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>course-service</name>
     <description>course-service</description>
@@ -62,6 +62,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>course-service</finalName>
     </build>
 
 </project>
